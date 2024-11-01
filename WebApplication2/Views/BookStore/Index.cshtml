@@ -1,0 +1,26 @@
+﻿@model IEnumerable<WebApplication2.Models.SACH>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <h1 style="text-align:center">SÁCH MỚI</h1>
+</div>
+<ul class="book-list">
+    @foreach (var item in Model)
+    {
+        <li class="book-item">
+            <a href="@Url.Action( "Details", "Bookstore", new { id = item.Masach })">
+                <div class="book-content">
+                    <div class="book-image">
+                        <img src="@item.Anhbia" />
+                    </div>
+                    <div class="book-name">
+                        <a href="#">@item.Tensach</a>
+                    </div>
+                </div>
+            </a>
+        </li>
+    }
+</ul>

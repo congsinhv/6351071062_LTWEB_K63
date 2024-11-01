@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\views\\bookstore\\nhaxuatban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\bookstore\\nhaxuatban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\views\\bookstore\\laynxb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\bookstore\\laynxb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\webapplication2\\views\\bookstore\\laychude.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\bookstore\\laychude.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\content\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\content\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\views\\bookstore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\bookstore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\webapplication2\\controllers\\bookstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\bookstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\webapplication2\\views\\bookstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\bookstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\content\\templatemo_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\content\\templatemo_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\views\\bookstore\\chude.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\bookstore\\chude.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|c:\\users\\lenovo\\onedrive\\downloads\\webapplication2\\webapplication2\\models\\chude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\chude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\webapplication2\\models\\bookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3B84CE-5866-4807-9AD5-DFBB52D3747B}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\bookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:35:19.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T12:35:04.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Styles.css",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Content\\Styles.css",
+              "RelativeDocumentMoniker": "WebApplication2\\Content\\Styles.css",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Content\\Styles.css",
+              "RelativeToolTip": "WebApplication2\\Content\\Styles.css",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-01T12:32:41.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\BookStore\\Details.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\Details.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\BookStore\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T12:28:49.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhaXuatBan.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\NhaXuatBan.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\BookStore\\NhaXuatBan.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\NhaXuatBan.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\BookStore\\NhaXuatBan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T12:25:51.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "templatemo_style.css",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Content\\templatemo_style.css",
+              "RelativeDocumentMoniker": "WebApplication2\\Content\\templatemo_style.css",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Content\\templatemo_style.css",
+              "RelativeToolTip": "WebApplication2\\Content\\templatemo_style.css",
+              "ViewState": "AgIAAAACAAAAAAAAAAAwwBMCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-01T12:20:59.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CHUDE.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Models\\CHUDE.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\CHUDE.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Models\\CHUDE.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\CHUDE.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:19:05.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChuDe.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\ChuDe.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\BookStore\\ChuDe.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\ChuDe.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\BookStore\\ChuDe.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T12:16:07.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LayNXB.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\LayNXB.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\BookStore\\LayNXB.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\LayNXB.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\BookStore\\LayNXB.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T11:58:36.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LayChuDe.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\LayChuDe.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\BookStore\\LayChuDe.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\LayChuDe.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\BookStore\\LayChuDe.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T11:56:56.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T11:53:46.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookStoreController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Controllers\\BookStoreController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\BookStoreController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Controllers\\BookStoreController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\BookStoreController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:51:10.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Bookstore.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Models\\Bookstore.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Bookstore.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Models\\Bookstore.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Bookstore.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:50:49.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\BookStore\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Downloads\\WebApplication2\\WebApplication2\\Views\\BookStore\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\BookStore\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T11:47:37.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

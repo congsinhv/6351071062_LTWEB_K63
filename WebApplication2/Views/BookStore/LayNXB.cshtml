@@ -1,0 +1,13 @@
+﻿
+@model List<WebApplication2.Models.NHAXUATBAN>
+
+<ul class="templatemo_list">
+    @foreach (var item in Model)
+    {
+
+        <li>
+            @Html.ActionLink(item.TenNXB, "NhaXuatBan", "BookStore", new { id = item.MaNXB }, null)
+        </li>
+    }
+</ul>
+

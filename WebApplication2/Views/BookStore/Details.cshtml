@@ -1,0 +1,20 @@
+﻿
+@model WebApplication2.Models.SACH
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>THÔNG TIN CHI TIẾT SÁCH</h2>
+<div class="detail">
+    <div class="detail-image">
+        <img src="@Model.Anhbia" alt="Sach image" />
+    </div>
+    <div class="detail-content">
+        <h3 class="detail-name">Tên sách: @Model.Tensach</h3>
+        <div class="detail-desc"><b>Mô tả:</b> @Model.Mota</div>
+        <div class="detail-price"><b>Giá bán:</b> @Model.Giaban VNĐ</div>
+    </div>
+</div>
+
+<button class="detail-btn">Đặt Mua</button>
+
