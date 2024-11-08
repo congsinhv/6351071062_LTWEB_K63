@@ -1,0 +1,28 @@
+﻿@model List<bookStore.Models.SACH>
+@{
+    ViewBag.Title = "Nhà Xuất Bản";
+}
+
+
+<h2>Nhà Xuất Bản - @Model[0].NHAXUATBAN.TenNXB</h2>
+<div class="book-list">
+    @if (Model != null && Model.Count > 0)
+    {
+        foreach (var book in Model)
+        {
+            <div class="book-item">
+                <a href="@Url.Action( "Details", "Bookstore", new { id = book.Masach })">
+                    <img src="@book.Anhbia" alt="@book.Tensach" style="max-width: 100px; height: 150px;" />
+                    <p>@book.Tensach</p>
+
+
+                </a>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No books available.</p>
+    }
+
+</div>

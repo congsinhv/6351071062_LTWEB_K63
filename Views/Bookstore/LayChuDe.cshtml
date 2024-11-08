@@ -1,0 +1,12 @@
+﻿@model List<bookStore.Models.CHUDE>
+
+<h4>CHỦ ĐỀ SÁCH</h4>
+<ul class="templatemo_list">
+    @foreach (var category in Model)
+    {
+        <li>
+            @Html.ActionLink(@category.TenChuDe, "Chude", "Bookstore", new { id = @category.MaCD }, null)
+        </li>
+    }
+</ul>
+

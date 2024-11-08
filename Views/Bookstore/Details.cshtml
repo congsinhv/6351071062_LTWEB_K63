@@ -1,0 +1,21 @@
+﻿@model bookStore.Models.SACH
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>THÔNG TIN CHI TIẾT SÁCH</h2>
+<div class="detail">
+    <div class="detail-image">
+        <img src="@Model.Anhbia" alt="Sach image" />
+    </div>
+    <div class="detail-content">
+        <h3 class="detail-name">Tên sách: @Model.Tensach</h3>
+        <div class="detail-desc"><b>Mô tả:</b> @Model.Mota</div>
+        <div class="detail-price"><b>Giá bán:</b> @Model.Giaban VNĐ</div>
+    </div>
+</div>
+
+
+<div class="detail-btn">
+    <a style="color:white" href="@Url.Action("ThemGiohang","Giohang",new {@iMasach=@Model.Masach, @strURL=Request.Url.ToString()})">Đặt mua</a>
+</div>
