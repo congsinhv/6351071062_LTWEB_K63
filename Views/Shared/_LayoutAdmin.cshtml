@@ -1,0 +1,67 @@
+﻿@{
+    // Cast Session["Taikhoan"] to KHACHHANG type
+    var admin = Session["Taikhoanadmin"] as bookStore.Models.ADMIN;
+    var style = "flex-end";
+    if (admin != null)
+    {
+
+        style = "space-between";
+    }
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Clean Blog Template</title>
+    <meta name="keywords" content="clean blog template, html css layout" />
+    <meta name="description" content="Clean Blog Template is provided by templatemo.com" />
+
+    <link href="~/Content/templatemo_style.css" rel="stylesheet" />
+
+    <link href="~/Content/Styles.css" rel="stylesheet" />
+    <link href="~/Content/s3slider.css" rel="stylesheet" />
+    <!-- JavaScripts-->
+    <script src="~/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+    <script src="~/Scripts/js/jquery.js"></script>
+    <link href="~/Content/adminStyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="">
+
+        <div id="templatemo_menu" style="display: flex; justify-content: @style ; align-items: center; flex-direction: row-reverse; width:80%; padding: 20px 0 0 0">
+            @if (Session["Taikhoanadmin"] != null)
+            {
+                <ul><li><a href="#" style="font: 500; color: #fff; min-height: 48px;">Hello, @admin.Hoten</a></li></ul>
+            }
+            <ul>
+
+                <li><a href="@Url.Action("Index", "Admin")">TRANG CHỦ</a></li>
+                <li><a href="@Url.Action("Sanpham", "Admin")">Quản lý chủ đề</a></li>
+                <li><a href="@Url.Action("Nhaxuatban", "Admin")">Quản lý NSX</a></li>
+                <li><a href="@Url.Action("Sach", "Admin")">Quản lý sách</a></li>
+                <li><a href="@Url.Action("Thongkesach", "Admin")">Thống kê sách</a></li>
+            </ul>
+
+        </div> <!-- end of templatemo_menu -->
+
+        <div style="margin-left: 150px; margin-bottom: 50px; max-width: 84%;">
+
+            @RenderBody()
+        </div>
+        @*@RenderSection("Scripts", required: false)*@
+        <div id="templatemo_footer" style="width:80%;">
+
+            Copyright © 2048 <a href="#">Your Company Name</a> |
+            <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
+
+        </div>
+
+        <div class="cleaner"></div>
+    </div> <!-- end of warpper -->
+
+    <div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>
+</body>
+</html>

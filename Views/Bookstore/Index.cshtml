@@ -1,0 +1,52 @@
+﻿@model PagedList.PagedList<SACH>
+@using bookStore.Models;
+@using PagedList.Mvc;
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>ĐÂY LÀ TRANG CHỦ</h2>
+<div class="book-list">
+    @if (Model != null && Model.Count > 0)
+    {
+        foreach (var book in Model)
+        {
+            <div class="book-item">
+                <a href="@Url.Action( "Details", "Bookstore", new { id = book.Masach })">
+                    <img src="@book.Anhbia" alt="@book.Tensach" style="max-width: 100px; height: 150px;" />
+                    <p>@book.Tensach</p>
+
+
+                </a>
+
+            </div>
+        }
+    }
+    else
+    {
+        <p>No books available.</p>
+    }
+
+</div>
+
+
+@if (Model.PageCount > 0)
+{
+    <p>Trang @(Model.PageNumber) / @(Model.PageCount)</p>
+}
+else
+{
+    <p>No pages available.</p>
+}
+
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new {page=page}))
+</div>
+<style>
+    .MenuTrang li{
+        display:inline;
+        margin:5px;
+    }
+</style>

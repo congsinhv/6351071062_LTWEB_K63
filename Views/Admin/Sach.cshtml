@@ -1,0 +1,142 @@
+﻿@using bookStore.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<bookStore.Models.SACH>
+@{
+    ViewBag.Title = "Sach";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@helper Truncate(string input,int lenght){
+    if (input.Length < lenght)
+    {
+        @input
+    }
+    else
+    {
+        @input.Substring(0, lenght)<text>...</text>
+    }
+}
+<style>
+    th{
+        display:inline-block;
+        min-width:100px;
+        text-align:left;
+    }
+    .header {
+        display: flex;
+        width: 100px;
+        margin-right: 20px;
+    }
+    .header > th {
+        flex: 1;
+        display: inline-block;
+        width: 100px;
+        margin-right: 20px;
+    }
+    .row {
+        display: flex;
+    }
+    .row > td {
+        display: inline-block;
+        width: 100px;
+        margin-right: 20px;
+    }
+</style>
+<h2>Sach</h2>
+
+<p>
+    @Html.ActionLink("THÊM MỚI", "Themmoisach")
+</p>
+<table class="table">
+    <tr class="header">
+        <th>
+           Tên sách
+        </th>
+        <th>
+            Giá bán
+        </th>
+        <th>
+            Mô tả
+        </th>
+        <th>
+            Ảnh bìa
+        </th>
+        <th>
+            Ngày cập nhật
+        </th>
+        <th>
+            SL tồn
+        </th>
+        <th>
+            Tên chủ đề
+            </th>
+            <th>
+                Tên NXB
+            </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="row">
+            <td>
+                @Html.DisplayFor(modelItem => item.Tensach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Giaban)
+            </td>
+            <td>
+                @Truncate(item.Mota,20)
+            </td>
+            <td>
+                <div class="detail-image">
+                    <img src="@item.Anhbia" alt="Sach image" />
+                </div>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaycapnhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluongton)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.CHUDE.TenChuDe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHAXUATBAN.TenNXB)
+                </td>
+            <td style="display:flex; gap:8px;">
+                @Html.ActionLink("Sửa", "Suasach", new { id = item.Masach }) |
+                @Html.ActionLink("Chi tiết", "Chitietsach", new { id = item.Masach }) |
+                @Html.ActionLink("Xóa", "Xoasach", new { id = item.Masach })
+            </td>
+        </tr>
+    }
+
+
+
+
+    <tr>
+
+        @if (Model.PageCount > 0)
+        {
+            <p>Trang @(Model.PageNumber) / @(Model.PageCount)</p>
+        }
+        else
+        {
+            <p>No pages available.</p>
+        }
+
+        <div class="MenuTrang">
+            @Html.PagedListPager(Model, page => Url.Action("Sach", new { page }))
+        </div>
+        <style>
+            .MenuTrang li {
+                display: inline;
+                margin: 5px;
+            }
+            .pagination {
+                margin-bottom: 10px;
+            }
+        </style>
+    </tr>
+</table>

@@ -1,0 +1,157 @@
+﻿@{
+    // Cast Session["Taikhoan"] to KHACHHANG type
+    var khachHang = Session["Taikhoan"] as bookStore.Models.KHACHHANG;
+    var style = "flex-end";
+    if(khachHang != null)
+    {
+
+        style = "space-between";
+    }
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Clean Blog Template</title>
+    <meta name="keywords" content="clean blog template, html css layout" />
+    <meta name="description" content="Clean Blog Template is provided by templatemo.com" />
+
+    <link href="~/Content/templatemo_style.css" rel="stylesheet" />
+
+    <link href="~/Content/Styles.css" rel="stylesheet" />
+    <link href="~/Content/s3slider.css" rel="stylesheet" />
+    <!-- JavaScripts-->
+
+    <script src="~/Scripts/js/jquery.js"></script>
+
+    <script src="~/Scripts/js/s3Slider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#slider').s3Slider({
+                timeOut: 1600
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div id="templatemo_wrapper">
+
+        <div id="templatemo_menu" style="display: flex; justify-content: @style ; align-items: center">
+            @if (Session["Taikhoan"] != null)
+            {
+                <ul><li><a href="#" style="font: 500; color: #fff; min-height: 48px;">Hello, @khachHang.HoTen</a></li></ul>
+            }
+            <ul>
+
+                <li><a href="portfolio.html">Service</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="@Url.Action("Giohang", "Giohang")">Giỏ hàng</a>
+                </li>
+                @if (Session["Taikhoan"] != null)
+                {
+                    <li><a href="@Url.Action("Dangnhap", "Nguoidung")">Logout</a></li>
+                }
+                else
+                {
+                    <li><a href="@Url.Action("Dangnhap", "Nguoidung")">Login</a></li>
+                }
+            </ul>
+
+        </div> <!-- end of templatemo_menu -->
+
+        <div id="templatemo_left_column">
+
+            <div id="templatemo_header">
+
+                <div id="site_title">
+                    <h1><a href="http://www.templatemo.com" target="_parent">Clean <strong>Blog</strong><span>Free HTML-CSS Template</span></a></h1>
+                </div><!-- end of site_title -->
+                <link href="~/Content/styles.css" rel="stylesheet" />
+            </div> <!-- end of header -->
+
+
+            <div id="templatemo_sidebar">
+
+
+
+
+                @Html.Action("LayChuDe", "Bookstore")
+
+
+                <ul class="templatemo_list">
+                </ul>
+
+                <div class="cleaner_h40"></div>
+
+                <h4>NHÀ XUẤT BẢN</h4>
+                <ul class="templatemo_list">
+
+                    @Html.Action("LayNXB", "Bookstore")
+                    <li><a href="#">Nhà xuất bán Trẻ</a></li>
+                    <li><a href="#">NXB Thống kê</a></li>
+                    <li><a href="#">Kim đồng</a></li>
+                    <li><a href="#">Đại học quốc gia</a></li>
+                    <li><a href="#">Văn hóa nghệ thuật</a></li>
+
+                </ul>
+
+            </div> <!-- end of templatemo_sidebar -->
+
+        </div> <!-- end of templatemo_left_column -->
+
+        <div id="templatemo_right_column">
+
+            <div id="featured_project">
+                <div id="slider">
+                    <ul id="sliderContent">
+                        <li class="sliderImage">
+                            <a href="">
+
+                                <img src="~/Content/images/slider/1.jpg" />>
+                            </a>
+                            <span class="top"><strong>Project 1</strong><br />Suspendisse turpis arcu, dignissim ac laoreet a, condimentum in massa.</span>
+                        </li>
+                        <li class="sliderImage">
+
+                            <img src="~/Content/images/slider/2.jpg" />
+                            <span class="bottom"><strong>Project 2</strong><br />uisque eget elit quis augue pharetra feugiat.</span>
+                        </li>
+                        <li class="sliderImage">
+
+                            <img src="~/Content/images/slider/3.jpg" />
+                            <span class="left"><strong>Project 3</strong><br />Sed et quam vitae ipsum vulputate varius vitae semper nunc.</span>
+                        </li>
+                        <li class="sliderImage">
+
+                            <img src="~/Content/images/slider/4.jpg" />
+                            <span class="right"><strong>Project 4</strong><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </li>
+                        <li class="clear sliderImage"></li>
+                    </ul>
+                </div>
+            </div>
+            @RenderBody()
+
+
+            <div class="cleaner"></div>
+        </div>
+        <!-- end of templatemo_main -->
+        <div class="cleaner_h20"></div>
+
+        <div id="templatemo_footer">
+
+            Copyright © 2048 <a href="#">Your Company Name</a> |
+            <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
+
+        </div>
+
+        <div class="cleaner"></div>
+    </div> <!-- end of warpper -->
+
+    <div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>
+</body>
+</html>
